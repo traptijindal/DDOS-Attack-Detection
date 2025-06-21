@@ -32,7 +32,7 @@ DDoS attacks aim to overwhelm a server or network by flooding it with traffic, o
    - `tx_bytes`: Bytes sent
 
 4. **Model Prediction**  
-   These extracted features are used as input to a trained **Random Forest Classifier** which outputs whether the source IP is:
+   These extracted features are used as input to a trained **K-nearest neighbor (KNN)** which outputs whether the source IP is:
    - 🟢 Normal Traffic
    - 🔴 DDoS Attack
 
