@@ -20,11 +20,9 @@ DDoS attacks aim to overwhelm a server or network by flooding it with traffic, o
 
 3. **Feature Extraction**  
    Run the provided Python script to extract key features from the `.pcap` file:
-   - `pktcount`: Number of packets
    - `bytecount`: Total bytes transferred
    - `flows`: Number of flows from the IP
    - `dt`: Average time gap between packets
-   - `tot_dur`: Total connection duration
    - `dur`: Duration per flow
    - `pktrate`: Packets per second
    - `pktperflow`: Average packets per flow
